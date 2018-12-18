@@ -182,6 +182,7 @@ Some examples of using tags:
 ```
     # Audit and patch the site
     ansible-playbook site.yml --tags="patch"
+    ansible-playbook-2.7 -v -i inventory/all --extra-vars "TARGET=chris-rhel7-01" playbook.yml --tags="level1"
 ```
 
 License
